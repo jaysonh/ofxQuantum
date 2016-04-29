@@ -16,12 +16,15 @@ This addon is a quantum computing simulator and provides an interface between op
 To use the quantum simulator you must first create an ofxQuantum object, then create a quantum register and link them together. Once this is done you can do operations on your quantum register.
 
 ofxQuantum           quantumSim;
+
 ofxQuantumRegister * quantumReg;
 
 // Initialise the quantum simulator
+
 quantumSim.init();
     
 // Create our register with one qubit and link it to the quantum simulator
+
 quantumReg =new ofxQuantumRegister( 1, &quantumSim );
     
 // Apply the hadamard gate which puts the qubit in a superposition states
