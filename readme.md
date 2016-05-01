@@ -8,9 +8,9 @@ This project was inspired by my interest in mathematics and computational theory
 For more detailed project documentation please see: http://www.jaysonh.com/ofxquantum.htm
 
 # what is quantum computing?
-Quantum comping is an area of computing first formulated by several computer theorists in the early 1980s (1)(2)(3). Quantum computing which uses the effects of quantum mechanics to perform computational tasks. While classical computing uses a binary 1/0 bit quantum computing uses a Qubit which holds a superposition of states between 1 and 0 and works within a world that is filled with probabilities rather than solid deterministic type variables. This allows a quantum computer to work with bits that hold the probability of the bit being in a state of 1 or 0 and with some clever algorithm design can compute the results across all posssible solutions to a problem. Another interesting feature of quantum computing is that quantum bits exist in a probability of being in a certain state until the bit is measured. This allows for the use of quantum computing to solve problems that are currently too coputationally heavy to solve on a classical computer.
+Quantum comping is an area of computing first formulated by several computer theorists in the early 1980s. Quantum computing which uses the effects of quantum mechanics to perform computational tasks. While classical computing uses a binary 1/0 bit quantum computing uses a Qubit which holds a superposition of states between 1 and 0 and works within a world that is filled with probabilities rather than solid deterministic type variables. This allows a quantum computer to work with bits that hold the probability of the bit being in a state of 1 or 0 and with some clever algorithm design can compute the results across all posssible solutions to a problem. Another interesting feature of quantum computing is that quantum bits exist in a probability of being in a certain state until the bit is measured. This allows for the use of quantum computing to solve problems that are currently too coputationally heavy to solve on a classical computer.
 
-In a way quantum computing is a fitting embodiement of Konrad Zuse's concept of the Rechnender Raum which is the idea that the universe itself is a giant computing device (4). This concept is becoming more and more aparent as scientists unravel the mysterious behind dna, quantum physics, and other physical processes all of which are structured around computationally driven processes.
+In a way quantum computing is a fitting embodiement of Konrad Zuse's concept of the Rechnender Raum which is the idea that the universe itself is a giant computing device. This concept is becoming more and more aparent as scientists unravel the mysterious behind dna, quantum physics, and other physical processes all of which are structured around computationally driven processes.
 
 # about this addon
 This addon is a quantum computing simulator and provides an interface between openframeworks and quantum computing. Some of the code is based on Matthew Haywards work on developing C code to implement quantum RSA decryption: https://quantum-algorithms.herokuapp.com/
@@ -34,6 +34,9 @@ quantumReg =new ofxQuantumRegister( 1, &quantumSim );
 // This means that it has an equal chance of being a 1 or a 0 when it is measured
 
 quantumReg->applyGateHad(0);
+
+# dependencies
+This addon requires that the ofxOpenCv and ofxCv addons are included 
 
 #contact
 Jayson Haebich // www.jaysonh.com // mail@jaysonh.com
