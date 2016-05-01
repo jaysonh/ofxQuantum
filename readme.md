@@ -39,7 +39,7 @@ quantumReg->applyGateHad(0);
 This addon requires that the ofxOpenCv and ofxCv addons are included 
 
 #contact
-Jayson Haebich // www.jaysonh.com // mail@jaysonh.com
+Jayson Haebich + www.jaysonh.com + mail@jaysonh.com
 
 
 ![My image](http://www.jaysonh.com/files/ofxquantum/image3.jpg)
