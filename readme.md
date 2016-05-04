@@ -36,7 +36,7 @@ quantumReg =new ofxQuantumRegister( 1, &quantumSim );
 quantumReg->applyGateHad(0);
 
 # dependencies
-This addon requires that the ofxOpenCv and ofxCv addons are included 
+This addon requires that the ofxCv addon is included https://github.com/kylemcdonald/ofxCv
 
 #contact
 ☯ Jayson Haebich ☯ www.jaysonh.com ☯ mail@jaysonh.com ☯
