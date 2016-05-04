@@ -49,7 +49,7 @@ public:
     // Prints out all the information about this quantum register
     // When verbose != 0 we return every value, when verbose = 0 we return only probability amplitudes which differ from 0.
     // WARNING, in the case of larger register sizes this can print an incredibly large amount of information!
-    void printInfo(int verbose) const;
+    void printInfo();
     
     // Set state of the qubits using the arrays of complex amplitudes.
     void setState(Complex *new_state);

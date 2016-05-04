@@ -261,21 +261,19 @@ unsigned long long int ofxQuantumRegister::decimalMeasure()
 // For debugging, output information about the register.
 ////////////////////////////////////////////////////////////////////////
 
-void ofxQuantumRegister::printInfo(int verbose) const
+void ofxQuantumRegister::printInfo() 
 {
     // Loop through and print out information about the bits
     for (unsigned long long int i = 0 ; i < pow(2, mRegSize) ; i++)
     {
-        if (verbose || fabs(mState[i].getReal()) > pow(10,-14)
-            || fabs(mState[i].getImag()) > pow(10,-14))
-        {
-            for(int j = 0; j < mRegSize;j++)
-                cout << mBits[i][j];
-            
-            cout << " State " << i << " has probability amplitude "
-            << mState[i].getReal() << " + i" << mState[i].getImag()
-            << endl;
-        }
+        
+        for(int j = 0; j < mRegSize;j++)
+            cout << mBits[i][j];
+        
+        cout << " State " << i << " has probability amplitude "
+        << mState[i].getReal() << " + i" << mState[i].getImag()
+        << endl;
+        
     }
 }
 
