@@ -13,7 +13,7 @@ Quantum comping is an area of computing first formulated by several computer the
 In a way quantum computing is a fitting embodiement of Konrad Zuse's concept of the Rechnender Raum which is the idea that the universe itself is a giant computing device. This concept is becoming more and more aparent as scientists unravel the mysterious behind dna, quantum physics, and other physical processes all of which are structured around computationally driven processes.
 
 # about this addon
-This addon is a quantum computing simulator and provides an interface between openframeworks and quantum computing. Some of the code is based on Matthew Haywards work on developing C code to implement quantum RSA decryption: https://quantum-algorithms.herokuapp.com/
+This addon is a quantum computing simulator and provides an interface between openframeworks and quantum computing. Some of the code is based on Matthew Haywards work on developing C code to implement quantum RSA decryption: https://quantum-algorithms.herokuapp.com/ Also the shaders used to render these visualisations were put together from various pieces of code I took from shadertoy examples so if you see something that is yours then let me know and I can credit you.
 
 To use the quantum simulator you must first create an ofxQuantum object, then create a quantum register and link them together. Once this is done you can do operations on your quantum register.
 
